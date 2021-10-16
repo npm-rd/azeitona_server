@@ -1,0 +1,12 @@
+{
+  "users_admin": [
+    {
+      "id": 1,
+      "name": "Rodrigo Azeitona",
+      "email": "rodrigo@email.com.br",
+      "senha": "123456789",
+      "createdAt": "teste",
+      "updatedAt": "teste"
+    }
+  ]
+}
