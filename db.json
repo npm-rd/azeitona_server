@@ -2,11 +2,87 @@
   "users_admin": [
     {
       "id": 1,
-      "name": "Rodrigo Azeitona",
+      "name": "Rodrigo",
       "email": "rodrigo@email.com.br",
       "senha": "123456789",
       "createdAt": "teste",
-      "updatedAt": "teste"
+      "updatedAt": "18-10-2021 – 15:17"
+    },
+    {
+      "id": 2,
+      "name": "Renan",
+      "email": "renan@email.com",
+      "senha": "12345678",
+      "createdAt": "18-10-2021 – 11:01",
+      "updatedAt": "18-10-2021 – 12:46"
+    },
+    {
+      "id": 3,
+      "name": "Elton Ricardo",
+      "email": "elton@ricado.com",
+      "senha": "21345678",
+      "createdAt": "18-10-2021 – 17:06",
+      "updatedAt": "18-10-2021 – 17:06"
+    }
+  ],
+  "campaigns": [
+    {
+      "name": "Imperdíveis",
+      "banner": "https://grupovaldirsaraiva.com.br/wp-content/uploads/2016/04/BANNER-ENCARTE-ABRIL.png",
+      "start_date": "13/10/2021",
+      "end_date": "15/10/2021",
+      "position": 1,
+      "value": 20,
+      "type": 0,
+      "active": true,
+      "updatedAt": "18-10-2021 – 17:57",
+      "createdAt": "18-10-2021 – 17:57",
+      "id": 0
+    },
+    {
+      "name": "pratos70",
+      "description": "Pratos 70",
+      "banner": "https://static-images.ifood.com.br/image/upload/t_high,q_100/webapp/landing/landing-banner-2.png",
+      "start_date": "13/10/2021",
+      "end_date": "15/10/2021",
+      "position": 0,
+      "value": 20,
+      "cashback": 0,
+      "voucher_limit": 0,
+      "type": 0,
+      "active": true,
+      "updatedAt": "18-10-2021 – 18:13",
+      "createdAt": "18-10-2021 – 17:57",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "almoco10",
+      "banner": "https://static-images.ifood.com.br/image/upload/t_high,q_100/webapp/landing/landing-banner-1.png",
+      "start_date": "13/10/2021",
+      "end_date": "15/10/2021",
+      "position": 2,
+      "value": 20,
+      "description": "Essa é uma campanha de teste",
+      "active": true,
+      "type": 0,
+      "stores": []
+    },
+    {
+      "name": "sobremesa_grátis",
+      "description": "Campanha master blaster monstra!",
+      "banner": "https://thumbs.dreamstime.com/z/banner-de-promo%C3%A7%C3%A3o-oferta-especial-sobremesa-gelo-real%C3%ADstico-oferecendo-deserto-cartaz-propaganda-do-monster-shake-gelado-em-158376499.jpg",
+      "start_date": "13/10/2021",
+      "end_date": "15/10/2021",
+      "position": 3,
+      "value": 20,
+      "cashback": 5,
+      "voucher_limit": 0,
+      "type": 0,
+      "active": false,
+      "updatedAt": "18-10-2021 – 18:13",
+      "createdAt": "18-10-2021 – 17:58",
+      "id": 3
     }
   ]
 }
