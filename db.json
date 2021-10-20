@@ -3,39 +3,34 @@
     {
       "id": 1,
       "name": "Rodrigo",
-      "email": "rodrigo@email.com.br",
+      "email": "rodrigo@gmail.com.br",
       "senha": "123456789",
       "createdAt": "teste",
-      "updatedAt": "18-10-2021 – 15:17"
+      "updatedAt": "19-10-2021 – 16:54"
     },
     {
       "id": 2,
-      "name": "Renan",
+      "name": "Renan Dantas",
       "email": "renan@email.com",
       "senha": "12345678",
-      "createdAt": "18-10-2021 – 11:01",
-      "updatedAt": "18-10-2021 – 12:46"
-    },
-    {
-      "id": 3,
-      "name": "Elton Ricardo",
-      "email": "elton@ricado.com",
-      "senha": "21345678",
-      "createdAt": "18-10-2021 – 17:06",
-      "updatedAt": "18-10-2021 – 17:06"
+      "createdAt": "20/10/2021",
+      "updatedAt": "20/10/2021"
     }
   ],
   "campaigns": [
     {
       "name": "Imperdíveis",
+      "description": "Campanha",
       "banner": "https://grupovaldirsaraiva.com.br/wp-content/uploads/2016/04/BANNER-ENCARTE-ABRIL.png",
       "start_date": "13/10/2021",
       "end_date": "15/10/2021",
-      "position": 1,
+      "position": 0,
       "value": 20,
+      "cashback": 0,
+      "voucher_limit": 0,
       "type": 0,
       "active": true,
-      "updatedAt": "18-10-2021 – 17:57",
+      "updatedAt": "19-10-2021 – 16:54",
       "createdAt": "18-10-2021 – 17:57",
       "id": 0
     },
@@ -45,32 +40,35 @@
       "banner": "https://static-images.ifood.com.br/image/upload/t_high,q_100/webapp/landing/landing-banner-2.png",
       "start_date": "13/10/2021",
       "end_date": "15/10/2021",
-      "position": 0,
+      "position": 1,
       "value": 20,
       "cashback": 0,
       "voucher_limit": 0,
       "type": 0,
-      "active": true,
-      "updatedAt": "18-10-2021 – 18:13",
+      "active": false,
+      "updatedAt": "19-10-2021 – 13:37",
       "createdAt": "18-10-2021 – 17:57",
       "id": 1
     },
     {
-      "id": 2,
       "name": "almoco10",
+      "description": "Essa é uma campanha de teste",
       "banner": "https://static-images.ifood.com.br/image/upload/t_high,q_100/webapp/landing/landing-banner-1.png",
       "start_date": "13/10/2021",
       "end_date": "15/10/2021",
       "position": 2,
       "value": 20,
-      "description": "Essa é uma campanha de teste",
-      "active": true,
+      "cashback": 0,
+      "voucher_limit": 0,
       "type": 0,
-      "stores": []
+      "active": true,
+      "updatedAt": "19-10-2021 – 12:28",
+      "createdAt": "19-10-2021 – 12:09",
+      "id": 2
     },
     {
       "name": "sobremesa_grátis",
-      "description": "Campanha master blaster monstra!",
+      "description": "Campanha master blaster!",
       "banner": "https://thumbs.dreamstime.com/z/banner-de-promo%C3%A7%C3%A3o-oferta-especial-sobremesa-gelo-real%C3%ADstico-oferecendo-deserto-cartaz-propaganda-do-monster-shake-gelado-em-158376499.jpg",
       "start_date": "13/10/2021",
       "end_date": "15/10/2021",
@@ -78,11 +76,70 @@
       "value": 20,
       "cashback": 5,
       "voucher_limit": 0,
-      "type": 0,
+      "type": 1,
       "active": false,
-      "updatedAt": "18-10-2021 – 18:13",
+      "updatedAt": "19-10-2021 – 13:41",
       "createdAt": "18-10-2021 – 17:58",
       "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "createdAt": "18-10-2021 – 17:58",
+      "updatedAt": "20/10/2021",
+      "title": "Bares e Restaurante",
+      "position": 0,
+      "image_url": "https://www.codemoney.com.br/site2017/wp-content/uploads/2018/11/quando-inventaram-o-restaurante.jpg",
+      "subCategories": [],
+      "stores": [],
+      "components": [
+        {
+          "type": "grid",
+          "value": "subCategories"
+        },
+        {
+          "type": "grid",
+          "value": "categories"
+        },
+        {
+          "type": "campaign",
+          "value": "campaign"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "createdAt": "18-10-2021 – 17:58",
+      "updatedAt": "20/10/2021",
+      "title": "Beleza e Fitness e Testa",
+      "position": 0,
+      "image_url": "https://imagens.ebc.com.br/GbAfKdnMz0ylVE_JVdHaenEXJcc=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/academia-02.07.2019.jpg",
+      "subCategories": [],
+      "stores": [],
+      "components": []
+    },
+    {
+      "id": 2,
+      "title": "Comércio e Serviços",
+      "image_url": "https://cdls.org.br/wp-content/uploads/cndl/2020/05/reabertura-com%C3%A9rcio.jpg",
+      "stores": [],
+      "subCategories": [],
+      "components": [],
+      "updatedAt": "19-10-2021 – 13:41",
+      "createdAt": "18-10-2021 – 17:58",
+      "position": 0
+    },
+    {
+      "id": 3,
+      "title": "Entretenimento",
+      "image_url": "https://www.secult.ce.gov.br/wp-content/uploads/sites/43/2018/10/Cinema.jpg",
+      "stores": [],
+      "subCategories": [],
+      "components": [],
+      "updatedAt": "19-10-2021 – 13:41",
+      "createdAt": "18-10-2021 – 17:58",
+      "position": 0
     }
   ]
 }
